@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 export default function CarCard({ car, isTopPick }) {
   const [expanded, setExpanded] = useState(false);
@@ -25,9 +26,11 @@ export default function CarCard({ car, isTopPick }) {
       {/* Car Image Container */}
       <div className={`relative w-full h-48 bg-gradient-to-b from-gray-100 to-gray-50 overflow-hidden flex items-center justify-center ${isTopPick ? "border-b-2 border-emerald-200" : "border-b border-gray-100"}`}>
         {car.image ? (
-          <img
+          <Image
             src={car.image}
             alt={`${car.make} ${car.model}`}
+            width={400}
+            height={200}
             className="w-full h-full object-cover"
           />
         ) : (
