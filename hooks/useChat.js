@@ -34,8 +34,8 @@ export function useChat() {
         const data = await res.json();
 
         setMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
-        if (data.shortlist?.length) setShortlist(data.shortlist);
-        if (data.verdict) setVerdict(data.verdict);
+        if (Array.isArray(data.shortlist)) setShortlist(data.shortlist);
+        if (data.verdict !== undefined) setVerdict(data.verdict);
         if (data.stage) setStage(data.stage);
       } catch (err) {
         setError("Something went wrong. Please try again.");
