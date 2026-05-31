@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f8f9fa"/>
+  
+  <!-- Ground -->
+  <rect y="180" width="400" height="70" fill="#e8e8e8"/>
+  
+  <!-- Car Body - Hatchback -->
+  <g id="car">
+    <!-- Main body -->
+    <path d="M 60 140 L 340 140 L 340 180 L 60 180 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    
+    <!-- Cabin -->
+    <path d="M 100 100 L 300 100 L 300 140 L 100 140 Z" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+    
+    <!-- Windshield -->
+    <path d="M 110 100 L 280 100 L 290 85 L 100 85 Z" fill="#87ceeb" opacity="0.6"/>
+    
+    <!-- Rear window -->
+    <path d="M 240 100 L 290 100 L 295 115 L 250 115 Z" fill="#87ceeb" opacity="0.6"/>
+    
+    <!-- Front wheel -->
+    <circle cx="120" cy="190" r="25" fill="#333"/>
+    <circle cx="120" cy="190" r="18" fill="#666"/>
+    <circle cx="120" cy="190" r="12" fill="#999"/>
+    
+    <!-- Rear wheel -->
+    <circle cx="320" cy="190" r="25" fill="#333"/>
+    <circle cx="320" cy="190" r="18" fill="#666"/>
+    <circle cx="320" cy="190" r="12" fill="#999"/>
+    
+    <!-- Headlights -->
+    <circle cx="65" cy="155" r="8" fill="#ffeb3b"/>
+    <circle cx="80" cy="155" r="8" fill="#ffeb3b"/>
+    
+    <!-- Bumper details -->
+    <rect x="60" y="165" width="25" height="15" fill="#333" rx="2"/>
+  </g>
+</svg>

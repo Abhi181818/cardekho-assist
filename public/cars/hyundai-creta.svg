@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f8f9fa"/>
+  
+  <!-- Ground -->
+  <rect y="180" width="400" height="70" fill="#e8e8e8"/>
+  
+  <!-- Car Body - SUV -->
+  <g id="car">
+    <!-- Main body with SUV lift -->
+    <path d="M 50 160 L 350 160 L 350 185 L 50 185 Z" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    
+    <!-- Cabin area - higher for SUV -->
+    <path d="M 90 115 L 310 115 L 310 160 L 90 160 Z" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Roof -->
+    <path d="M 100 115 L 300 115 L 300 100 L 100 100 Z" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- Windshield -->
+    <path d="M 105 115 L 295 115 L 300 85 L 100 85 Z" fill="#87ceeb" opacity="0.5"/>
+    
+    <!-- Side window -->
+    <path d="M 250 115 L 295 115 L 295 130 L 270 130 Z" fill="#87ceeb" opacity="0.5"/>
+    
+    <!-- Front wheel - SUV style larger -->
+    <circle cx="110" cy="195" r="28" fill="#1a1a1a"/>
+    <circle cx="110" cy="195" r="20" fill="#444"/>
+    <circle cx="110" cy="195" r="14" fill="#666"/>
+    
+    <!-- Rear wheel - SUV style larger -->
+    <circle cx="330" cy="195" r="28" fill="#1a1a1a"/>
+    <circle cx="330" cy="195" r="20" fill="#444"/>
+    <circle cx="330" cy="195" r="14" fill="#666"/>
+    
+    <!-- Headlights LED-style -->
+    <rect x="55" y="150" width="12" height="12" fill="#ffff00" rx="2"/>
+    <rect x="70" y="150" width="12" height="12" fill="#ffff00" rx="2"/>
+    
+    <!-- Grille -->
+    <rect x="55" y="165" width="30" height="15" fill="#333" rx="2"/>
+    <rect x="58" y="168" width="24" height="2" fill="#555"/>
+    <rect x="58" y="172" width="24" height="2" fill="#555"/>
+  </g>
+</svg>
