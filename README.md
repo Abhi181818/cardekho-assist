@@ -34,3 +34,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## CarDekho AI Advisor — Local run notes
+
+This repository contains a minimal conversational car advisor MVP.
+
+- Create a `.env.local` in the project root and add your Gemini API key (optional for local dev):
+
+If you want the app to call the official Google Generative Language client, set this env var in `.env.local`:
+
+```env
+GENERATIVE_API_KEY=your_api_key_here
+```
+
+(If you don't set `GENERATIVE_API_KEY` the app uses a safe local mock response.)
+
+- Start the dev server:
+
+```bash
+npm install
+npm run dev
+```
+
+- The app runs at `http://localhost:3000` (or the next available port). If no `GEMINI_API_KEY` is provided the server returns a safe mock response useful for development.
+
