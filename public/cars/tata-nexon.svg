@@ -1,0 +1,49 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f8f9fa"/>
+  
+  <!-- Ground -->
+  <rect y="180" width="400" height="70" fill="#e8e8e8"/>
+  
+  <!-- Car Body - Compact SUV -->
+  <g id="car">
+    <!-- Main body -->
+    <path d="M 55 155 L 345 155 L 345 185 L 55 185 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    
+    <!-- Cabin - Modern design -->
+    <path d="M 95 110 L 305 110 L 305 155 L 95 155 Z" fill="#c0392b" stroke="#a93226" stroke-width="2"/>
+    
+    <!-- Roof spoiler -->
+    <path d="M 100 110 L 300 110 L 300 95 L 105 95 Z" fill="#8b0000" stroke="#660000" stroke-width="2"/>
+    
+    <!-- Windshield -->
+    <path d="M 105 110 L 295 110 L 298 80 L 100 80 Z" fill="#87ceeb" opacity="0.55"/>
+    
+    <!-- Rear window -->
+    <path d="M 245 110 L 295 110 L 295 130 L 260 130 Z" fill="#87ceeb" opacity="0.55"/>
+    
+    <!-- Front wheel - sports look -->
+    <circle cx="115" cy="195" r="26" fill="#1a1a1a"/>
+    <circle cx="115" cy="195" r="19" fill="#333"/>
+    <circle cx="115" cy="195" r="13" fill="#555"/>
+    <!-- Wheel spokes -->
+    <line x1="115" y1="181" x2="115" y2="209" stroke="#777" stroke-width="1.5"/>
+    <line x1="101" y1="195" x2="129" y2="195" stroke="#777" stroke-width="1.5"/>
+    
+    <!-- Rear wheel - sports look -->
+    <circle cx="325" cy="195" r="26" fill="#1a1a1a"/>
+    <circle cx="325" cy="195" r="19" fill="#333"/>
+    <circle cx="325" cy="195" r="13" fill="#555"/>
+    <!-- Wheel spokes -->
+    <line x1="325" y1="181" x2="325" y2="209" stroke="#777" stroke-width="1.5"/>
+    <line x1="311" y1="195" x2="339" y2="195" stroke="#777" stroke-width="1.5"/>
+    
+    <!-- Aggressive headlights -->
+    <circle cx="62" cy="152" r="7" fill="#ffff00"/>
+    <circle cx="75" cy="152" r="7" fill="#ffff00"/>
+    
+    <!-- Front bumper design -->
+    <rect x="55" y="165" width="35" height="18" fill="#333" rx="3"/>
+    <rect x="58" y="168" width="29" height="4" fill="#555"/>
+  </g>
+</svg>

@@ -18,6 +18,7 @@
     "highway_suitable": false,
     "boot_space_litres": 268,
     "ground_clearance_mm": 163,
+    "image": "/cars/maruti-swift.svg",
     "tags": ["budget", "city", "first-car", "fuel-efficient", "hatchback"]
   },
   {
@@ -39,6 +40,7 @@
     "highway_suitable": true,
     "boot_space_litres": 433,
     "ground_clearance_mm": 190,
+    "image": "/cars/hyundai-creta.svg",
     "tags": ["highway", "family", "premium", "suv"]
   },
   {
@@ -60,6 +62,7 @@
     "highway_suitable": true,
     "boot_space_litres": 350,
     "ground_clearance_mm": 209,
+    "image": "/cars/tata-nexon.svg",
     "tags": ["suv", "safety", "family", "value"]
   }
 ]
